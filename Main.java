@@ -125,6 +125,7 @@ public class Main {
 
         courseView.add(bottomPanel, BorderLayout.SOUTH);
 
+        // Displaying Each Student's Existing Courses in the Table
         for (Course course: student.courses){
             Object[] row = {
                     course.getCourseCode(),
