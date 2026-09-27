@@ -1,0 +1,17 @@
+# PDF Files and Docs Files
+*.pdf
+*.docx
+*.doc
+
+# Intellij Configuration Files
+.idea/
+*.iml
+
+# Package Build Output Folders
+bin/
+out/
+
+# Compiled Class Files
+*.class
+.aider*
+
