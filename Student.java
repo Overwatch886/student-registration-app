@@ -7,6 +7,7 @@ public class Student extends Person {
     String name;// instance variable
     private String department;
     private int totalCreditUnits;
+    int minimumCourses = 5;
 
     Student(String studentId, String name, String department) {
 
@@ -43,7 +44,7 @@ public class Student extends Person {
 
 
     public boolean hasCompletedCourseRegistration() {
-        return this.courses.size() >= 5; 
+        return this.courses.size() >= minimumCourses; 
     }
     public double calculateCGPA(Component parentFrame) {
         validateCourseRegistration(parentFrame);
