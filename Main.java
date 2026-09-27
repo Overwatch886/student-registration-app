@@ -345,6 +345,7 @@ public class Main {
                     } else {
                         c.setForeground(Color.RED); // Red (Incomplete)
                         setText(s.name + " (" + s.getStudentId() + ") - " + s.courses.size() + "/5 Courses");
+                        //TODO rather than hardcoding 5 here, it would be better to get the value from the validation methods
                     }
                 }
                 return c;
