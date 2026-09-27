@@ -339,7 +339,7 @@ public class Main {
 
                 if (value instanceof Student) {
                     Student s = (Student) value;
-                    if (s.courses.size() >= 5) {
+                    if (s.hasCompletedCourseRegistration()) {
                         c.setForeground(new Color(0, 120, 0)); // Dark Green / Blue (Complete)
                         setText(s.name + " (" + s.getStudentId() + ") - Complete");
                     } else {
