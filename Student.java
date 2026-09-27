@@ -43,7 +43,7 @@ public class Student extends Person {
 
 
     public boolean hasCompletedCourseRegistration() {
-        return this.courses.size() >= 5; // <--- The ONLY place in the entire codebase where 5 is defined!
+        return this.courses.size() >= 5; 
     }
     public double calculateCGPA(Component parentFrame) {
         validateCourseRegistration(parentFrame);
